@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome
 
 The plan is to make an optimized but feature-rich automation framework to be used by myself and anyone interested.
 
