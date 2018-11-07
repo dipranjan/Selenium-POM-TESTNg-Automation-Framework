@@ -25,7 +25,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * 	@author Dip Ranjan Chatterjee
  *	@version 1.0
  */
-public class Base {
+public class BaseClass {
 	
 	public static WebDriver driver;
 	public static Logger log=Logger.getLogger("rootLogger");;	

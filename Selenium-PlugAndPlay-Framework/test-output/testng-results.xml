@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-11-07T07:50:05Z" name="Default suite" finished-at="2018-11-07T07:50:25Z" duration-ms="20681">
+  <suite started-at="2018-11-07T09:29:49Z" name="Default suite" finished-at="2018-11-07T09:29:58Z" duration-ms="9015">
     <groups>
     </groups>
-    <test started-at="2018-11-07T07:50:05Z" name="Default test" finished-at="2018-11-07T07:50:25Z" duration-ms="20681">
+    <test started-at="2018-11-07T09:29:49Z" name="Default test" finished-at="2018-11-07T09:29:58Z" duration-ms="9015">
       <class name="testCase.TestCase1">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:testCase.TestCase1@58d75e99]" started-at="2018-11-07T07:50:05Z" name="BeforeSuite" description="Framework initilization" finished-at="2018-11-07T07:50:05Z" duration-ms="31" status="PASS">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:testCase.TestCase1@fba92d3]" started-at="2018-11-07T14:59:49Z" name="BeforeSuite" description="Framework initilization" finished-at="2018-11-07T14:59:49Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:testCase.TestCase1@58d75e99]" started-at="2018-11-07T07:50:05Z" name="BeforeTest" description="Driver initilization and pre test setup" finished-at="2018-11-07T07:50:22Z" duration-ms="17549" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:testCase.TestCase1@fba92d3]" started-at="2018-11-07T14:59:49Z" name="BeforeTest" description="Driver initilization and pre test setup" finished-at="2018-11-07T14:59:55Z" duration-ms="6100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method signature="TestCase1()[pri:0, instance:testCase.TestCase1@58d75e99]" started-at="2018-11-07T07:50:22Z" name="TestCase1" finished-at="2018-11-07T07:50:25Z" duration-ms="2323" status="PASS">
+        <test-method signature="testCase1()[pri:0, instance:testCase.TestCase1@fba92d3]" started-at="2018-11-07T14:59:55Z" name="testCase1" finished-at="2018-11-07T14:59:57Z" duration-ms="2128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestCase1 -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:testCase.TestCase1@58d75e99]" started-at="2018-11-07T07:50:25Z" name="AfterTest" description="Driver teardown" finished-at="2018-11-07T07:50:25Z" duration-ms="783" status="PASS">
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:testCase.TestCase1@fba92d3]" started-at="2018-11-07T14:59:57Z" name="AfterTest" description="Driver teardown" finished-at="2018-11-07T14:59:58Z" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
