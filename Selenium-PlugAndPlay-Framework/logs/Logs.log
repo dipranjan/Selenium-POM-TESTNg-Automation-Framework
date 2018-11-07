@@ -1,0 +1,4 @@
+22:14:28,986 DEBUG rootLogger:42 - Logs initialized
+22:14:28,986 DEBUG rootLogger:50 - Setting up firefox version : null
+22:14:36,154 DEBUG rootLogger:25 - HomePage Initialized.
+22:14:44,063 DEBUG rootLogger:108 - Driver quit.

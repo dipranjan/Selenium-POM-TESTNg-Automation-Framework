@@ -2,28 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-11-07T09:29:49Z" name="Default suite" finished-at="2018-11-07T09:29:58Z" duration-ms="9015">
+  <suite started-at="2018-11-07T16:44:28Z" name="Suite" finished-at="2018-11-07T16:44:44Z" duration-ms="15077">
     <groups>
+      <group name="smoke">
+        <method signature="TestCase1.testCase1()[pri:0, instance:testCase.TestCase1@1af2d44a]" name="testCase1" class="testCase.TestCase1"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2018-11-07T09:29:49Z" name="Default test" finished-at="2018-11-07T09:29:58Z" duration-ms="9015">
+    <test started-at="2018-11-07T16:44:28Z" name="Test" finished-at="2018-11-07T16:44:44Z" duration-ms="15077">
       <class name="testCase.TestCase1">
-        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:testCase.TestCase1@fba92d3]" started-at="2018-11-07T14:59:49Z" name="BeforeSuite" description="Framework initilization" finished-at="2018-11-07T14:59:49Z" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:testCase.TestCase1@1af2d44a]" started-at="2018-11-07T16:44:28Z" name="BeforeSuite" description="Framework initilization" finished-at="2018-11-07T16:44:28Z" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:testCase.TestCase1@fba92d3]" started-at="2018-11-07T14:59:49Z" name="BeforeTest" description="Driver initilization and pre test setup" finished-at="2018-11-07T14:59:55Z" duration-ms="6100" status="PASS">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:testCase.TestCase1@1af2d44a]" started-at="2018-11-07T16:44:28Z" name="BeforeTest" description="Driver initilization and pre test setup" finished-at="2018-11-07T16:44:36Z" duration-ms="7090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method signature="testCase1()[pri:0, instance:testCase.TestCase1@fba92d3]" started-at="2018-11-07T14:59:55Z" name="testCase1" finished-at="2018-11-07T14:59:57Z" duration-ms="2128" status="PASS">
+        <test-method signature="testCase1()[pri:0, instance:testCase.TestCase1@1af2d44a]" started-at="2018-11-07T16:44:36Z" name="testCase1" description="Invalid Login Flipkart" finished-at="2018-11-07T16:44:44Z" duration-ms="7964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:testCase.TestCase1@fba92d3]" started-at="2018-11-07T14:59:57Z" name="AfterTest" description="Driver teardown" finished-at="2018-11-07T14:59:58Z" duration-ms="768" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:testCase.TestCase1@1af2d44a]" started-at="2018-11-07T16:44:44Z" name="AfterTest" description="Driver teardown" finished-at="2018-11-07T16:44:44Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- testCase.TestCase1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

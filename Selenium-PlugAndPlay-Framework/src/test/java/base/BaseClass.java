@@ -32,7 +32,6 @@ public class BaseClass {
 	public static Properties properties = new Properties();
 	
 	
-	@SuppressWarnings("static-access")
 	@BeforeSuite(description="Framework initilization")
 	public static void BeforeSuite() throws FileNotFoundException, IOException {
 		
@@ -97,11 +96,15 @@ public class BaseClass {
 			((DesiredCapabilities) caps).setJavascriptEnabled(true);
 			((DesiredCapabilities) caps).setCapability("takesScreenshot", true);
 			driver = new PhantomJSDriver(caps);
+			
+			if(properties.getProperty("cookies").equalsIgnoreCase("clear")) {driver.manage().deleteAllCookies();}
+			driver.manage().window().maximize();
 		}		
 	}
 	
 	@AfterTest(description="Driver teardown")
 	public void AfterTest() {
-		driver.quit();
+		//driver.quit();
+		log.debug("Driver quit.");
 	}
 }
