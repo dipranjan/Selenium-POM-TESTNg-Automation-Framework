@@ -104,7 +104,7 @@ public class BaseClass {
 	
 	@AfterTest(description="Driver teardown")
 	public void AfterTest() {
-		//driver.quit();
+		driver.quit();
 		log.debug("Driver quit.");
 	}
 }

@@ -1,4 +1,13 @@
-22:14:28,986 DEBUG rootLogger:42 - Logs initialized
-22:14:28,986 DEBUG rootLogger:50 - Setting up firefox version : null
-22:14:36,154 DEBUG rootLogger:25 - HomePage Initialized.
-22:14:44,063 DEBUG rootLogger:108 - Driver quit.
+20:53:41,096 DEBUG rootLogger:56 - FRAMEWORK DEMO Suite Sarted
+20:53:41,117 DEBUG rootLogger:42 - Logs initialized
+20:53:41,123 DEBUG rootLogger:50 - Setting up firefox version : null
+20:53:47,091 DEBUG rootLogger:21 - TESTCASE1 Started
+20:53:47,131 DEBUG rootLogger:25 - HomePage Initialized.
+20:54:08,301 DEBUG rootLogger:31 - TESTCASE1 Failed ::Reached error page: about:neterror?e=netTimeout&u=https%3A//www.flipkart.com/&c=UTF-8&f=regular&d=The%20server%20at%20www.flipkart.com%20is%20taking%20too%20long%20to%20respond.
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'DEARC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 11488, moz:profile: C:\Users\ACER\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cf3b4e2b-60ef-4528-b8ec-6a506a7e57b0
+20:54:09,375 DEBUG rootLogger:108 - Driver quit.
+20:54:09,469 DEBUG rootLogger:61 - FRAMEWORK DEMO Suite Finished
