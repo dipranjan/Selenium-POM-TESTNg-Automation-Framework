@@ -9,13 +9,11 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import base.BaseClass;
-
 /**
  * @author ACER
  *
  */
-public class Listener extends BaseClass implements ITestListener, ISuiteListener{
+public class Listener extends ScreenShot implements ITestListener, ISuiteListener{
 
 	public void onTestStart(ITestResult result) {
 		log.debug(result.getName().toUpperCase()+" Started");
@@ -24,7 +22,8 @@ public class Listener extends BaseClass implements ITestListener, ISuiteListener
 
 	public void onTestSuccess(ITestResult result) {
 		log.debug(result.getName().toUpperCase()+" Passed");
-		
+		String path = ScreenShot.TakeScreenShot();
+		System.out.println(path);
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -53,7 +52,7 @@ public class Listener extends BaseClass implements ITestListener, ISuiteListener
 	}
 
 	public void onStart(ISuite suite) {
-		log.debug(suite.getName().toUpperCase()+" Suite Sarted");
+		log.debug(suite.getName().toUpperCase()+" Suite Started");
 		
 	}
 
