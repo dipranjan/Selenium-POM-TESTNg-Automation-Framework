@@ -1,9 +1,9 @@
-13:46:28,623 DEBUG rootLogger:55 - FRAMEWORK DEMO Suite Started
-13:46:28,654 DEBUG rootLogger:42 - Logs initialized
-13:46:28,654 DEBUG rootLogger:50 - Setting up firefox version : null
-13:46:34,079 DEBUG rootLogger:19 - TESTCASE1 Started
-13:46:34,126 DEBUG rootLogger:25 - HomePage Initialized.
-13:46:52,049 DEBUG rootLogger:24 - TESTCASE1 Passed
-13:46:52,874 DEBUG rootLogger:43 - Screenshot taken: C:\Users\ACER\git\repository\Selenium-PlugAndPlay-Framework/Screenshots/2018.11.10-13.46.52.png
-13:46:54,172 DEBUG rootLogger:108 - Driver quit.
-13:46:54,250 DEBUG rootLogger:60 - FRAMEWORK DEMO Suite Finished
+21:29:16,394 DEBUG rootLogger:56 - FRAMEWORK DEMO Suite Started
+21:29:18,659 DEBUG rootLogger:42 - Logs initialized
+21:29:18,675 DEBUG rootLogger:50 - Setting up firefox version : null
+21:29:27,912 DEBUG rootLogger:20 - TESTCASE1 Started
+21:29:29,803 DEBUG rootLogger:25 - HomePage Initialized.
+21:29:37,756 DEBUG rootLogger:25 - TESTCASE1 Passed
+21:29:38,742 DEBUG rootLogger:44 - Screenshot taken: C:\Users\ACER\git\repository\Selenium-PlugAndPlay-Framework/Screenshots/2018.11.11-21.29.38.png
+21:29:42,109 DEBUG rootLogger:108 - Driver quit.
+21:29:42,203 DEBUG rootLogger:62 - FRAMEWORK DEMO Suite Finished

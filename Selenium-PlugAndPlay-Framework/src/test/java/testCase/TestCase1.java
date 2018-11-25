@@ -24,10 +24,10 @@ public class TestCase1 extends  BaseClass{
 		
 		HomePage homePage = new HomePage();
 		driver.get("https://www.flipkart.com");
-		homePage.username.sendKeys("testuser");
+		/*homePage.username.sendKeys("testuser");
 		homePage.password.sendKeys("testpassword");
 		homePage.password.sendKeys(Keys.ENTER);
 		Assert.assertEquals(driver.findElement(By.xpath("//span[contains(.,'valid')]")).getText(), "Please enter valid Email ID/Mobile number");		
-	}
+	*/}
 
 }

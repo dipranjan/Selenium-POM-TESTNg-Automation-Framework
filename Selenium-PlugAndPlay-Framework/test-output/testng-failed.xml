@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Framework Demo]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.Listener"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="testCase.TestCase1">
@@ -13,4 +16,4 @@
       </class> <!-- testCase.TestCase1 -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+</suite> <!-- Failed suite [Framework Demo] -->

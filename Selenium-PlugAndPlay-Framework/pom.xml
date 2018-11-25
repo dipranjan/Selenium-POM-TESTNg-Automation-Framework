@@ -38,6 +38,12 @@
 		    <artifactId>ashot</artifactId>
 		    <version>1.5.3</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.eclipse.paho/org.eclipse.paho.client.mqttv3 -->
+		<dependency>
+		    <groupId>org.eclipse.paho</groupId>
+		    <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+		    <version>1.2.0</version>
+		</dependency>		
 		<dependency>
 		    <groupId>com.github.detro.ghostdriver</groupId>
 		    <artifactId>phantomjsdriver</artifactId>
