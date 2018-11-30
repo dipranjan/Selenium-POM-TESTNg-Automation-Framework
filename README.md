@@ -1,20 +1,20 @@
 ## Welcome
 
-The plan is to make an optimized but feature-rich automation framework to be used by myself and anyone interested.
+Selenium-PlugAndPlay-Framework and Automation Live are the two projects which implement the live status tracking concept of an automation suite.
 
-As of now the features planned to be added are:
+More details on the architecture is given in the Wiki.
+
+As of now the features which are added/to be added are as follows:
 
     * Maven based
     * POM
     * TestNg
     * Uses webdriver manager to automatically download drivers
     * Ashot
-    * Video recording
-    * Extent or Allure report
+    * Extent or Allure report -- pending
     * Support for headless browsers
     * Log4j logging capabilities
 
-Will keep adding more as and when it comes to my mind.
 
 References:
 
