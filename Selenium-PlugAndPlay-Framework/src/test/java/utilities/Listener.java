@@ -10,10 +10,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import messagingServices.*;
 
-/**
- * @author ACER
- *
- */
+
 public class Listener extends ScreenShot implements ITestListener, ISuiteListener{
 
 	public void onTestStart(ITestResult result) {
