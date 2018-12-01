@@ -19,12 +19,6 @@ import org.testng.annotations.*;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-
-
-/**
- * 	@author Dip Ranjan Chatterjee
- *	@version 1.0
- */
 public class BaseClass {
 	
 	public static WebDriver driver;
@@ -33,13 +27,9 @@ public class BaseClass {
 	
 	
 	@BeforeSuite(description="Framework initilization")
-	public static void BeforeSuite() throws FileNotFoundException, IOException {
-		
-		properties.load(new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configuration.properties"));
-		
-		//Starting the logs as per specification in the configuration file.
-			//System.setProperty("logPath", System.getProperty("user.dir"));
-			log.debug("Logs initialized");
+	public static void BeforeSuite() throws FileNotFoundException, IOException {		
+		properties.load(new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configuration.properties"));		
+		log.debug("Logs initialized");
 	}
 	
 	@BeforeTest(description="Driver initilization and pre test setup")

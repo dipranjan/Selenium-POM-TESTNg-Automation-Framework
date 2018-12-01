@@ -1,8 +1,8 @@
 /**
- * 
+ * This package contains the Pages in POM.
  */
 /**
- * @author ACER
- *
+ * 	@author Dip Ranjan Chatterjee
+ *	@version 1.0
  */
 package pages;
