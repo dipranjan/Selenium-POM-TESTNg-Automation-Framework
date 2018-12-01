@@ -1,9 +1,17 @@
-21:29:16,394 DEBUG rootLogger:56 - FRAMEWORK DEMO Suite Started
-21:29:18,659 DEBUG rootLogger:42 - Logs initialized
-21:29:18,675 DEBUG rootLogger:50 - Setting up firefox version : null
-21:29:27,912 DEBUG rootLogger:20 - TESTCASE1 Started
-21:29:29,803 DEBUG rootLogger:25 - HomePage Initialized.
-21:29:37,756 DEBUG rootLogger:25 - TESTCASE1 Passed
-21:29:38,742 DEBUG rootLogger:44 - Screenshot taken: C:\Users\ACER\git\repository\Selenium-PlugAndPlay-Framework/Screenshots/2018.11.11-21.29.38.png
-21:29:42,109 DEBUG rootLogger:108 - Driver quit.
-21:29:42,203 DEBUG rootLogger:62 - FRAMEWORK DEMO Suite Finished
+00:06:41,418 DEBUG rootLogger:57 - FRAMEWORK DEMO Suite Started
+00:06:41,532 DEBUG rootLogger:48 - Logs initialized
+00:06:41,534 DEBUG rootLogger:49 - Suite Started
+00:06:41,538 DEBUG rootLogger:57 - Setting up firefox version : null
+00:06:47,157 DEBUG rootLogger:21 - TESTCASE1 Started
+00:06:47,220 DEBUG rootLogger:23 - HomePage Initialized.
+00:07:15,358 DEBUG rootLogger:26 - TESTCASE1 Passed
+00:07:16,145 DEBUG rootLogger:44 - Screenshot taken: C:\Users\ACER\git\repository\Selenium-PlugAndPlay-Framework/Screenshots/2018.12.02-00.07.15.png
+00:07:17,703 DEBUG rootLogger:116 - Driver quit.
+00:07:17,797 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+00:07:17,799 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+00:07:17,802 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+00:07:17,805 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+00:07:17,806 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ACER/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+00:07:18,178 DEBUG rootLogger:122 - Report Flushed
+00:07:18,179 DEBUG rootLogger:123 - Suite ended
+00:07:18,191 DEBUG rootLogger:63 - FRAMEWORK DEMO Suite Finished

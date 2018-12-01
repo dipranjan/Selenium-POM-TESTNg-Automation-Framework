@@ -7,15 +7,7 @@ import base.BaseClass;
 
 
 public class MqttMessagingServices extends BaseClass implements MqttCallback {
-
-    private final static int qos = Integer.parseInt(properties.getProperty("qos"));
-    private static String topic = properties.getProperty("topic");
-    private static final String serverUri = properties.getProperty("serverUri");;
-    private static final String username = properties.getProperty("username");;
-    private static final String password = properties.getProperty("password");;
-    private static final String clientId = properties.getProperty("clientId");;
-    private static MqttClient client;
-    
+  
     public static void connect() {
     	MqttConnectOptions conOpt = new MqttConnectOptions();
         conOpt.setCleanSession(true);
