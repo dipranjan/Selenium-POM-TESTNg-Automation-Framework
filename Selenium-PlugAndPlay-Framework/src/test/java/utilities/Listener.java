@@ -17,24 +17,26 @@ import messagingServices.*;
 public class Listener extends ScreenShot implements ITestListener, ISuiteListener{
 
 	public void onTestStart(ITestResult result) {
-		test = rep.startTest(result.getName().toUpperCase());
 		log.debug(result.getName().toUpperCase()+" Started");
 		MqttMessagingServices.PublishMessage(result.getName().toUpperCase()+" Started");
+		test = rep.startTest(result.getName().toUpperCase());
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		log.debug(result.getName().toUpperCase()+" Passed");
+		log.debug(result.getName().toUpperCase()+" Passed");		
+		MqttMessagingServices.PublishMessage(result.getName().toUpperCase()+" Passed");	
 		test.log(LogStatus.PASS, test.addScreenCapture(ScreenShot.TakeScreenShot()));
-		MqttMessagingServices.PublishMessage(result.getName().toUpperCase()+" Passed");		
 	}
 
 	public void onTestFailure(ITestResult result) {
 		log.error(result.getName().toUpperCase()+" Failed ::" + result.getThrowable().getMessage().toString());
+		MqttMessagingServices.PublishMessage(result.getName().toUpperCase()+" Failed");	
 		test.log(LogStatus.FAIL, test.addScreenCapture(ScreenShot.TakeScreenShot()));
 	}
 
 	public void onTestSkipped(ITestResult result) {
 		log.debug(result.getName().toUpperCase()+" Skipped");
+		MqttMessagingServices.PublishMessage(result.getName().toUpperCase()+" Skipped");	
 		test.log(LogStatus.SKIP, result.getName().toUpperCase()+" Skipped the test");	
 	}
 
@@ -55,7 +57,7 @@ public class Listener extends ScreenShot implements ITestListener, ISuiteListene
 
 	public void onStart(ISuite suite) {
 		log.debug(suite.getName().toUpperCase()+" Suite Started");
-		MqttMessagingServices.PublishMessage(suite.getName().toUpperCase()+" Suite Started");
+		//MqttMessagingServices.PublishMessage(suite.getName().toUpperCase()+" Suite Started"); -- has issue need to fix
 		
 	}
 

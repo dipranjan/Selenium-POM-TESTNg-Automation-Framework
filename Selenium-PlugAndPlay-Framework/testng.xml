@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Framework Demo">
+<suite name="AutomationLive Demo">
   <listeners>
        <listener class-name="utilities.Listener"/>
   </listeners>
   <test thread-count="5" name="Test">
     <classes>
       <class name="testCase.TestCase1"/>
+      <class name="testCase.TestCase2"/>
+      <class name="testCase.TestCase3"/>
+      <class name="testCase.TestCase4"/>
+      <class name="testCase.TestCase5"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

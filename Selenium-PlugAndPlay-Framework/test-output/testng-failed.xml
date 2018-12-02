@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Framework Demo]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [AutomationLive Demo]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="utilities.Listener"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCase.TestCase1">
+      <class name="testCase.TestCase2">
         <methods>
           <include name="AfterTest"/>
           <include name="BeforeTest"/>
+          <include name="testCase2"/>
+          <include name="AfterSuite"/>
           <include name="BeforeSuite"/>
-          <include name="testCase1"/>
         </methods>
-      </class> <!-- testCase.TestCase1 -->
+      </class> <!-- testCase.TestCase2 -->
+      <class name="testCase.TestCase3">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+          <include name="testCase3"/>
+          <include name="AfterSuite"/>
+          <include name="BeforeSuite"/>
+        </methods>
+      </class> <!-- testCase.TestCase3 -->
+      <class name="testCase.TestCase5">
+        <methods>
+          <include name="AfterTest"/>
+          <include name="BeforeTest"/>
+          <include name="testCase5"/>
+          <include name="AfterSuite"/>
+          <include name="BeforeSuite"/>
+        </methods>
+      </class> <!-- testCase.TestCase5 -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Framework Demo] -->
+</suite> <!-- Failed suite [AutomationLive Demo] -->

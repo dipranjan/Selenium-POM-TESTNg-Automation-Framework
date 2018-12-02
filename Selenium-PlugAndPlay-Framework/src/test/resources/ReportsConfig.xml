@@ -14,13 +14,13 @@
         <protocol>https</protocol>
         
         <!-- title of the document -->
-        <documentTitle>Selenium Plug & Play Framework</documentTitle>
+        <documentTitle>Selenium Plug and Play Framework</documentTitle>
         
         <!-- report name - displayed at top-nav -->
         <reportName>Automation Report for</reportName>
         
         <!-- report headline - displayed at top-nav, after reportHeadline -->
-        <reportHeadline>Selenium Plug & Play Framework</reportHeadline>
+        <reportHeadline>Selenium Plug and Play Framework</reportHeadline>
         
         <!-- global date format override -->
         <!-- defaults to yyyy-MM-dd -->

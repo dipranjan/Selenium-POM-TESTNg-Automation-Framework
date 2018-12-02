@@ -7,12 +7,14 @@ import base.BaseClass;
 
 
 public class MqttMessagingServices extends BaseClass implements MqttCallback {
-  
-    public static void connect() {
+	
+	
+    public static void connect() {		
     	MqttConnectOptions conOpt = new MqttConnectOptions();
         conOpt.setCleanSession(true);
         conOpt.setUserName(username);
         conOpt.setPassword(password.toCharArray());
+        
        try {
     	   client = new MqttClient(serverUri, clientId, new MemoryPersistence());
     	   client.connect(conOpt);
@@ -31,7 +33,9 @@ public class MqttMessagingServices extends BaseClass implements MqttCallback {
 	        message.setQos(qos);
 	        client.publish(topic, message); // Blocking publish
     	}
-    	catch(Exception e) {}
+    	catch(Exception e) {
+    		e.printStackTrace();
+    	}
     }
 	public void connectionLost(Throwable cause) {
 		// TODO Auto-generated method stub		

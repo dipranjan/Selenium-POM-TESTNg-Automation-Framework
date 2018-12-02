@@ -1,17 +1,29 @@
-00:06:41,418 DEBUG rootLogger:57 - FRAMEWORK DEMO Suite Started
-00:06:41,532 DEBUG rootLogger:48 - Logs initialized
-00:06:41,534 DEBUG rootLogger:49 - Suite Started
-00:06:41,538 DEBUG rootLogger:57 - Setting up firefox version : null
-00:06:47,157 DEBUG rootLogger:21 - TESTCASE1 Started
-00:06:47,220 DEBUG rootLogger:23 - HomePage Initialized.
-00:07:15,358 DEBUG rootLogger:26 - TESTCASE1 Passed
-00:07:16,145 DEBUG rootLogger:44 - Screenshot taken: C:\Users\ACER\git\repository\Selenium-PlugAndPlay-Framework/Screenshots/2018.12.02-00.07.15.png
-00:07:17,703 DEBUG rootLogger:116 - Driver quit.
-00:07:17,797 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-00:07:17,799 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-00:07:17,802 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-00:07:17,805 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-00:07:17,806 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ACER/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-00:07:18,178 DEBUG rootLogger:122 - Report Flushed
-00:07:18,179 DEBUG rootLogger:123 - Suite ended
-00:07:18,191 DEBUG rootLogger:63 - FRAMEWORK DEMO Suite Finished
+21:02:30,090 DEBUG rootLogger:59 - AUTOMATIONLIVE DEMO Suite Started
+21:02:30,117 DEBUG rootLogger:51 - Logs initialized
+21:02:30,124 DEBUG rootLogger:58 - Setting up firefox version : null
+21:02:38,317 DEBUG rootLogger:20 - TESTCASE1 Started
+21:02:39,942 DEBUG rootLogger:23 - HomePage Initialized.
+21:02:48,266 DEBUG rootLogger:26 - TESTCASE1 Passed
+21:02:50,726 DEBUG rootLogger:44 - Screenshot taken: C:\Users\ACER\git\repository\Selenium-PlugAndPlay-Framework/Screenshots/2018.12.02-21.02.50.png
+21:02:50,766 DEBUG rootLogger:20 - TESTCASE2 Started
+21:02:52,159 DEBUG rootLogger:23 - HomePage Initialized.
+21:02:56,785 ERROR rootLogger:32 - TESTCASE2 Failed ::expected [Will fail] but found [Please enter valid Email ID/Mobile number]
+21:02:58,990 DEBUG rootLogger:44 - Screenshot taken: C:\Users\ACER\git\repository\Selenium-PlugAndPlay-Framework/Screenshots/2018.12.02-21.02.58.png
+21:02:58,994 DEBUG rootLogger:20 - TESTCASE3 Started
+21:03:00,377 DEBUG rootLogger:38 - TESTCASE3 Skipped
+21:03:01,774 DEBUG rootLogger:20 - TESTCASE4 Started
+21:03:03,149 DEBUG rootLogger:23 - HomePage Initialized.
+21:03:07,265 DEBUG rootLogger:26 - TESTCASE4 Passed
+21:03:09,032 DEBUG rootLogger:44 - Screenshot taken: C:\Users\ACER\git\repository\Selenium-PlugAndPlay-Framework/Screenshots/2018.12.02-21.03.08.png
+21:03:09,044 DEBUG rootLogger:20 - TESTCASE5 Started
+21:03:10,437 DEBUG rootLogger:23 - HomePage Initialized.
+21:03:15,749 ERROR rootLogger:32 - TESTCASE5 Failed ::expected [Fail] but found [Please enter valid Email ID/Mobile number]
+21:03:17,654 DEBUG rootLogger:44 - Screenshot taken: C:\Users\ACER\git\repository\Selenium-PlugAndPlay-Framework/Screenshots/2018.12.02-21.03.17.png
+21:03:20,779 DEBUG rootLogger:117 - Driver quit.
+21:03:20,936 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21:03:20,936 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21:03:20,936 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21:03:20,936 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21:03:20,936 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ACER/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21:03:21,467 DEBUG rootLogger:123 - Report Flushed
+21:03:21,483 DEBUG rootLogger:65 - AUTOMATIONLIVE DEMO Suite Finished

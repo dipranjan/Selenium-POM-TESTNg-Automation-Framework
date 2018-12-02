@@ -31,20 +31,24 @@ public class BaseClass {
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
 	
-	protected final static int qos = 2;
-	protected final static String topic = properties.getProperty("topic");
-	protected static final String serverUri = properties.getProperty("serverUri");
-	protected static final String username = properties.getProperty("username");
-    protected static final String password = properties.getProperty("password");
-    protected static final String clientId = properties.getProperty("clientId");
-    protected static MqttClient client;
+	public static int qos = 2;
+	public static String topic ;
+	public static String serverUri;
+	public static String username;
+	public static String password;
+	public static String clientId;
+	public static MqttClient client;
 	
 	
 	@BeforeSuite(description="Suite started")
 	public static void BeforeSuite() throws FileNotFoundException, IOException {		
-		properties.load(new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configuration.properties"));		
+		properties.load(new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configuration.properties"));
+		topic = properties.getProperty("topic");
+		serverUri = properties.getProperty("serverUri");
+		username = properties.getProperty("username");
+	    password = properties.getProperty("password");
+	    clientId = properties.getProperty("clientId");
 		log.debug("Logs initialized");
-		log.debug("Suite Started");
 	}	
 	@BeforeTest(description="Driver initilization and pre test setup")
 	public void BeforeTest() {
@@ -117,6 +121,5 @@ public class BaseClass {
 	public void AfterSuite() {
 		rep.flush();
 		log.debug("Report Flushed");
-		log.debug("Suite ended");
 	}
 }

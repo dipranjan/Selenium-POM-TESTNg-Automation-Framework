@@ -12,10 +12,10 @@ import org.testng.annotations.Test;
 import base.BaseClass;
 import pages.HomePage;
 
-public class TestCase1 extends  BaseClass{
+public class TestCase4 extends  BaseClass{
 	
 	@Test(groups="smoke",description="Invalid Login Flipkart")
-	public static void testCase1() {
+	public static void testCase4() {
 		
 		HomePage homePage = new HomePage();
 		driver.get("https://www.flipkart.com");
