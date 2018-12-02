@@ -33,10 +33,10 @@ public class BaseClass {
 	
 	protected final static int qos = 2;
 	protected final static String topic = properties.getProperty("topic");
-	protected static final String serverUri = properties.getProperty("serverUri");;
-	protected static final String username = properties.getProperty("username");;
-    protected static final String password = properties.getProperty("password");;
-    protected static final String clientId = properties.getProperty("clientId");;
+	protected static final String serverUri = properties.getProperty("serverUri");
+	protected static final String username = properties.getProperty("username");
+    protected static final String password = properties.getProperty("password");
+    protected static final String clientId = properties.getProperty("clientId");
     protected static MqttClient client;
 	
 	
